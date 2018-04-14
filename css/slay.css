@@ -1,5 +1,30 @@
+body,html{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 div.header{
     height: 40rem;
     background-color:#9b59b6;
-    width: 100%
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+div.header .heading-text{
+    font-size: 3rem;
+    display: block;
+}
+div.header .header-inner *{
+    text-align: center;
+}
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: #8e44ad;
 }
